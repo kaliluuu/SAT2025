@@ -1,0 +1,78 @@
+body{
+ background: #402924;
+}
+.general {
+  justify-content: center;
+}
+
+/* Judul "Hi Name!" */
+#greeting {
+  font-family: 'Cursive', 'Brush Script MT', sans-serif; /* Font meliuk */
+  font-size: 77px;
+  color: #7C9DD2;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Teks "Congrats for passing..." */
+#greet2 {
+  margin-top: -50px;
+  font-family: 'Serif', Georgia, Times New Roman;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Mengatur tata letak iframe dan pesan */
+.personalized {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* Agar responsif di HP */
+}
+.framee{
+width: 300px;
+height: 400px;
+background: #F4D78D;
+display: flex;
+align-items: center;
+}
+#message{
+  font-family:'Times New Roman', Times, serif;
+  color: #402924;
+  font-size: 1.5 rem;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+/* Styling Iframe (Kotak Sertifikat) */
+#certificate {
+  border: none;
+  background-color: #d3d3d3; /* Warna abu-abu placeholder */
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Tombol Download */
+#unduh {
+  margin-top: 30px;
+  align-items: center;
+  padding: 12px 25px;
+  background-color: #7C9DD2;
+  color: #3b2a24;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#unduh:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'DoorFont';
+  src: url('assets/images/fonts/birds.ttf');
+}
+
+body {
+  font-family: system-ui;
+  text-align: center;
+  background-image: url("assets/images/stripes.jpg");
+  background-size: cover;
+  background-position: center;
+   margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center; /* tengah horizontal */
+  align-items: center;     /* tengah vertical */
+}
+.doorframe{
+position: absolute;
+width: 430px;
+height: 850px;
+background: #402924;
+}
+.door{
+position: relative;
+width: 395px;
+height: 800px;
+border-radius: 8px;
+background: #B3AB2C;
+}
+.doorknop{
+position: absolute;
+background-image: url("assets/images/knop.png");  
+width: 224px;
+height: 336px;
+top: 25%;
+background-size: cover;  /* atau contain */
+background-repeat: no-repeat;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+.title {
+  position: absolute;
+  font-size: 60px;
+  top: 30px;
+
+  text-align: center;
+  font-family:'Doorfont';
+  color: white;
+  border-color: #7c9dd2;
+  border-width: 5px;
+}
+.add{
+  position: absolute;
+  font-size: 67px;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+
+
+
+
