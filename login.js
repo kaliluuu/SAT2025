@@ -15,7 +15,9 @@ const users = [
   { name: "Ayla",  password: "ATLETSILAT"},
   { name: "Akak",  password: "AKAKSUKANALA"},
   { name: "karina", password: "halodek"},
-  { name: "demo", password: "123"}
+  { name: "demo", password: "123"},
+  { name: "lila", password: "lilaSAT25"},
+  { name: "faiq", password: "faiqSAT25"}
 ];
 
 function login() {
