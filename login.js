@@ -14,10 +14,14 @@ const users = [
   { name: "Bella", password: "BellaSAT25"},
   { name: "Ayla",  password: "ATLETSILAT"},
   { name: "Akak",  password: "AKAKSUKANALA"},
+<<<<<<< HEAD
   { name: "karina", password: "halodek"},
   { name: "demo", password: "123"},
   { name: "lila", password: "lilaSAT25"},
   { name: "faiq", password: "faiqSAT25"}
+=======
+  { name: "karina", password: "halodek"}
+>>>>>>> 891dc91d8688a83830819aad9ba8140c329a3568
 ];
 
 function login() {
